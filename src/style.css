@@ -1,6 +1,29 @@
-h1 {
-    font-size: 90px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
 body {
-    background: blue;
+    padding: 0;
+    margin: 0; 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+div {
+    box-sizing: border-box;
+}
+.container {
+    width: 935px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+}
+.page {
+    display: flex;
+    position: relative;
+    margin-top: 60px;
+}
+.page_left {
+    height: 600px;
+    width: 600px;
+    background: url(https://i.ibb.co/kJqNJ3Z/post.png) no-repeat center left;
 }

@@ -1,23 +1,10 @@
+import React from "react";
+import ReactDom from "react-dom";
 import "./style.css";
-
-const React = require('react');
-const ReactDOM = require('react-dom');
+import PageBlock from "./components/page/page.js";
 
 
-// class HelloMessage extends React.Component {
-//     render() {
-//       return (
-//         <h1>
-//           Hello, World
-//         </h1>
-//       );
-//     }
-//   }
-const HelloWorld = () => {
-  return <h1>Hello, World 2</h1>;
-}
-  
-  ReactDOM.render(
-    <HelloWorld />,
-    document.querySelector("#app")
-  );
+ReactDom.render(
+  <PageBlock />,
+  document.querySelector("#app")
+);
