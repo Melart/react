@@ -2,7 +2,8 @@ import React from "react";
 import Users from "../page/users.json";
 import "./item-style.css";
 
-export default class PageItem extends React.Component {
+
+class PageItem extends React.Component {
     render() {
         return (
             <div className="page_item">
@@ -15,3 +16,4 @@ export default class PageItem extends React.Component {
         )
     }
 }
+export default PageItem;
