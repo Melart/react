@@ -81,15 +81,6 @@ class MainApp extends React.Component {
                     }
                   }}
                 />
-                <button 
-                  onClick={ev => {
-                      ev.preventDefault;
-                      this.state.coments.slice(3);
-                      console.log(this.state.coments);
-                  }}
-                >
-                Удалить
-                </button>
               </div>
           </div>
       </div> 
